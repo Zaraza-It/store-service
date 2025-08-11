@@ -7,3 +7,8 @@ services:
       - 'POSTGRES_USER=postgres'
     ports:
       - '5432:5432'
+        redis:
+    image: 'redis:alpine'
+    container_name: my_redis 
+    ports:
+      - '6379:6379'           
