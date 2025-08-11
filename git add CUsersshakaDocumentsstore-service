@@ -1,0 +1,104 @@
+[33mcommit 19c11b0ea4476e5cf44774db5df4522042961055[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Zaraza-it <egor76522@Inbox.ri>
+Date:   Mon Aug 11 05:41:47 2025 +0300
+
+    first commit
+
+:100644 100644 79d172a ce98cd5 M	README.md
+
+[33mcommit 2f6033d3058de9031f665131427f853f167a3ea4[m
+Author: Zaraza-it <egor76522@Inbox.ri>
+Date:   Mon Aug 11 05:10:03 2025 +0300
+
+    first commit
+
+:000000 100644 0000000 79d172a A	README.md
+
+[33mcommit c524728ab0a54a61a2162716210ee7ab4786aa46[m
+Author: Zaraza-it <egor76522@Inbox.ri>
+Date:   Mon Aug 11 05:05:13 2025 +0300
+
+    first commit
+
+:000000 100644 0000000 596bc11 A	src/main/java/nocast/storeservice/admin/controller/AdminCategoryController.java
+:000000 100644 0000000 818c0f5 A	src/main/java/nocast/storeservice/admin/controller/AdminProductController.java
+:000000 100644 0000000 10869e2 A	src/main/java/nocast/storeservice/admin/controller/AdminUserController.java
+:000000 100644 0000000 a267ac4 A	src/main/java/nocast/storeservice/admin/service/AdminService.java
+:000000 100644 0000000 185533b A	src/main/java/nocast/storeservice/admin/service/AdminServiceImpl.java
+:000000 100644 0000000 07eeec8 A	src/main/java/nocast/storeservice/cart/controller/CartController.java
+:000000 100644 0000000 e8f13cc A	src/main/java/nocast/storeservice/cart/dto/CartAddReadDto.java
+:000000 100644 0000000 5011c17 A	src/main/java/nocast/storeservice/cart/dto/CartFilterDto.java
+:000000 100644 0000000 bb615de A	src/main/java/nocast/storeservice/cart/dto/CartReadDto.java
+:000000 100644 0000000 c5d5f04 A	src/main/java/nocast/storeservice/cart/mapper/CartAddMapper.java
+:000000 100644 0000000 0492cf2 A	src/main/java/nocast/storeservice/cart/mapper/CartAddReadMapper.java
+:000000 100644 0000000 c67ea44 A	src/main/java/nocast/storeservice/cart/mapper/CartEditMapper.java
+:000000 100644 0000000 247fc8f A	src/main/java/nocast/storeservice/cart/mapper/CartPredicateMapper.java
+:000000 100644 0000000 5f64086 A	src/main/java/nocast/storeservice/cart/mapper/CartReadMapper.java
+:000000 100644 0000000 6c1a7d2 A	src/main/java/nocast/storeservice/cart/package-info.java
+:000000 100644 0000000 7b81ade A	src/main/java/nocast/storeservice/cart/persistence/Cart.java
+:000000 100644 0000000 185dc67 A	src/main/java/nocast/storeservice/cart/persistence/CartItem.java
+:000000 100644 0000000 d88e8e1 A	src/main/java/nocast/storeservice/cart/repository/CartRepository.java
+:000000 100644 0000000 6630513 A	src/main/java/nocast/storeservice/cart/repository/ItemRepository.java
+:000000 100644 0000000 455ba85 A	src/main/java/nocast/storeservice/cart/service/CartService.java
+:000000 100644 0000000 f776f53 A	src/main/java/nocast/storeservice/cart/service/CartServiceImpl.java
+:000000 100644 0000000 b775ae1 A	src/main/java/nocast/storeservice/category/controller/CategoryController.java
+:000000 100644 0000000 f2179bb A	src/main/java/nocast/storeservice/category/package-info.java
+:100644 100644 a905588 a905588 R100	src/main/java/nocast/storeservice/product/dto/Currency.java	src/main/java/nocast/storeservice/common/components/Currency.java
+:000000 100644 0000000 2ab92cd A	src/main/java/nocast/storeservice/common/components/ErrorMessage.java
+:100644 100644 2da709f 2da709f R100	src/main/java/nocast/storeservice/product/dto/PriceType.java	src/main/java/nocast/storeservice/common/components/PriceType.java
+:000000 100644 0000000 4bd3c9c A	src/main/java/nocast/storeservice/exception/CartItemDeletionException.java
+:000000 100644 0000000 9299c3d A	src/main/java/nocast/storeservice/exception/CartItemNotAddedException.java
+:000000 100644 0000000 9476742 A	src/main/java/nocast/storeservice/exception/CategoryNotFoundException.java
+:100644 100644 e5c38bf e5c38bf R100	src/main/java/nocast/storeservice/category/exception/LangCodeUndefinedException.java	src/main/java/nocast/storeservice/exception/LangCodeUndefinedException.java
+:000000 100644 0000000 1ff1d77 A	src/main/java/nocast/storeservice/exception/ProductEditFailedException.java
+:000000 100644 0000000 4fab8e1 A	src/main/java/nocast/storeservice/exception/ProductNotCreatedException.java
+:000000 100644 0000000 cf89321 A	src/main/java/nocast/storeservice/exception/ProductNotFoundException.java
+:000000 100644 0000000 9be241d A	src/main/java/nocast/storeservice/exception/UserNotFoundException.java
+:000000 100644 0000000 289c05f A	src/main/java/nocast/storeservice/exception/package-info.java
+:000000 100644 0000000 4b85289 A	src/main/java/nocast/storeservice/handlers/AdviceController.java
+:000000 100644 0000000 d911089 A	src/main/java/nocast/storeservice/product/controller/ProductController.java
+:100644 000000 a39653c 0000000 D	src/main/java/nocast/storeservice/product/exception/LangCodeUndefinedException.java
+:000000 100644 0000000 9616c0b A	src/main/java/nocast/storeservice/product/package-info.java
+:000000 100644 0000000 c84da08 A	src/main/java/nocast/storeservice/security/config/RedisConfig.java
+:000000 100644 0000000 eb07143 A	src/main/java/nocast/storeservice/security/config/SecurityConfig.java
+:000000 100644 0000000 57d43ae A	src/main/java/nocast/storeservice/user/controller/UserController.java
+:000000 100644 0000000 e7f7bb3 A	src/main/java/nocast/storeservice/user/dto/UserCreateDto.java
+:000000 100644 0000000 e9d4183 A	src/main/java/nocast/storeservice/user/mapper/UserCreateMapper.java
+:000000 100644 0000000 8cd4510 A	src/main/java/nocast/storeservice/user/package-info.java
+:000000 100644 0000000 3d926c8 A	src/main/java/nocast/storeservice/user/service/CustomUserDetails.java
+:000000 100644 0000000 8059fdd A	src/main/java/nocast/storeservice/user/service/UserDetailsService.java
+:000000 100644 0000000 e69de29 A	src/main/resources/db/changelog/db.changelog-1.3.sql
+:000000 100644 0000000 0e9b00e A	src/test/java/nocast/storeservice/cart/service/CartServiceTest.java
+:000000 100644 0000000 e69de29 A	src/test/resources/test-cart-data.sql
+
+[33mcommit a3765192808ae1f478649ad9a1f785794b516d3c[m
+Author: Zaraza-it <egor76522@Inbox.ri>
+Date:   Sun Jun 22 22:08:45 2025 +0300
+
+    add test product-service
+
+:000000 100644 0000000 d2c42ea A	src/main/java/nocast/storeservice/category/dto/CategoryCreateDto.java
+:000000 100644 0000000 f9f3969 A	src/main/java/nocast/storeservice/category/dto/CategoryEditDto.java
+:000000 100644 0000000 6cd0600 A	src/main/java/nocast/storeservice/category/mapper/CategoryCreateMapper.java
+:000000 100644 0000000 9c648aa A	src/main/java/nocast/storeservice/category/mapper/CategoryEditMapper.java
+:100644 100644 405a367 31691f3 M	src/main/java/nocast/storeservice/category/mapper/CategoryReadMapper.java
+:100644 100644 c530ee0 8a103c1 M	src/main/java/nocast/storeservice/category/persistence/Category.java
+:100644 100644 4a83d60 d7968c4 M	src/main/java/nocast/storeservice/category/repository/CategoryRepository.java
+:000000 100644 0000000 5d525d5 A	src/main/java/nocast/storeservice/category/service/CategoryManagementService.java
+:000000 100644 0000000 dfc9b9c A	src/main/java/nocast/storeservice/category/service/CategoryManagementServiceImpl.java
+:100644 100644 8bdfa86 1e93898 M	src/main/java/nocast/storeservice/category/service/CategoryService.java
+:100644 100644 ad80203 7dde148 M	src/main/java/nocast/storeservice/category/service/CategoryServiceImpl.java
+:000000 100644 0000000 e57b989 A	src/test/java/nocast/storeservice/category/service/CategoryManagementServiceTest.java
+
+[33mcommit bb278ce53505b4da3a94daec9835bd104635c7b1[m[33m ([m[1;32mproduct-service[m[33m)[m
+Author: Zaraza-it <egor76522@Inbox.ri>
+Date:   Sun Jun 22 22:03:35 2025 +0300
+
+    add test product-service
+
+:000000 100644 0000000 6f843dc A	src/main/java/nocast/storeservice/product/dto/ProductCreateDto.java
+:000000 100644 0000000 e5752fe A	src/main/java/nocast/storeservice/product/dto/ProductEditDto.java
+:000000 100644 0000000 b0756a1 A	src/main/java/nocast/storeservice/product/mapper/ProductCreateMapper.java
+:000000 100644 0000000 3d03a57 A	src/main/java/nocast/storeservice/product/mapper/ProductEditMapper.java
+:100644 100644 c7f6f46 9cb0440 M	src/main/java/nocast/storeservice/product/mapper/ProductPredicateMapper.java
+:100644 100644 b329d64 eaba2ec M	src/main/java/nocast/storeservice/product/mapper/Prod

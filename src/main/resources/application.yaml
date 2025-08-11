@@ -1,0 +1,32 @@
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+    username: elastic_user
+    password: elastic_password
+  application:
+    name: store-service
+
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/store-db
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  web:
+    locale: en
+
+#  liquibase:
+#    enabled: true
+#    change-log: classpath:/db/changelog/db.changelog-master.yaml
+#    url: jdbc:postgresql://localhost:5432/store-db
+#    user: postgres
+#    password: postgres
+#    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    root: INFO
